@@ -34,7 +34,7 @@ function find(array &$selection, int $lessIndex, int $moreIndex, int $item): str
     $n++;
     $middleIndex = getMiddleIndex($lessIndex, $moreIndex);
     $middleValue = $selection[$middleIndex];
-    echo "$middleValue <> $item" .  PHP_EOL;
+
     if ($middleValue < $item) {
         $lessIndex = $middleIndex + 1; // исключая найденный индекс + смещение значений относительно индекса
     } elseif ($middleValue > $item) {
