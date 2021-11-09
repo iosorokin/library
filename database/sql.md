@@ -22,3 +22,6 @@ full outer join - это комбинация a left outer и right outer join. 
 
 ### ON / USING
 Условие для соединение
+
+### Links
+https://en.wikipedia.org/wiki/Join_(SQL)
