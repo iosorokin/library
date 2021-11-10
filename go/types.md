@@ -21,6 +21,10 @@
 **byte**        alias for uint8 <br>
 **rune**        alias for int32 <br>
 
+### byte
+- представление строки в байтовом значении(???)
+
+
 ## string
 - строки неизменяемы в go (???)
 
