@@ -1,4 +1,4 @@
-###strings
+### strings
 Работа со строками
 - Replaced замена
 
