@@ -13,6 +13,7 @@
 - var {name} {type} //инициализация переменной 
 - var {name} {type} = someexpression // инициализация с присвоением значения инициализированной переменной
 - {name} := somefunction(...) // инициализация переменной по типу, возвращаемому выражением с одновременным присвоением
+- const {name} {type} = someexpression // инициализация константы
 
 ### Объявление функции
 - func {name} ( {argument_name {argument_type}, {...} {...} ) {return_type} или ({return_type}, {...})
