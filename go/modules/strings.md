@@ -1,115 +1,116 @@
 # Мутация
-## Clone
-## Cut
-## Fields
+- Clone
+- Cut
+- Fields
 Разбивает строку по пробелам?
-## FieldsFunc 
+- FieldsFunc 
 Настраиваемое в колбеке разбиение строки по найденной руне?
-## Join
+- Join
 Склеить массив строк с использованием разделителя
-## Repeat
-## Replace
-## ReplaceAll 
-## Split
-## SplitN
+- Repeat
+- Replace
+- ReplaceAll 
+- Split
+- SplitN
 Разбить по разделителю
-## SplitAfter
-## SplitAfterN 
+- SplitAfter
+- SplitAfterN 
 (Не понял в чём разница)
-## ToLower
-## ToLowerSpecial 
-## ToTitle
+- ToLower
+- ToLowerSpecial 
+- ToTitle
 Что это? Перевод строки в Unicode где первая рука будет заглавной?
-## ToTitleSpecial 
-## ToUpper
-## ToUpperSpecial
-## ToValidUTF8
+- ToTitleSpecial 
+- ToUpper
+- ToUpperSpecial
+- ToValidUTF8
 Замена всех невалидных кодировке рун?
-## Trim 
-## TrimFunc
-## TrimLeft
-## TrimLeftFunc
-## TrimPrefix
-## TrimRight 
-## TrimRightFunc
-## TrimSpace
-## TrimSuffix 
+- Trim 
+- TrimFunc
+- TrimLeft
+- TrimLeftFunc
+- TrimPrefix
+- TrimRight 
+- TrimRightFunc
+- TrimSpace
+- TrimSuffix 
 
-###
+
 В чём разница между Fields и Split ?
 
 # Итерирование
-## Map
+- Map
 Перебрать строку по каждой руне
 
 # Операции
-## Count 
+- Count 
 
 # Сравнение
-## Compare
-## EqualFold
+- Compare
+- EqualFold
 что-то про сравнение между кодировоками
 
-# Поиск
-## 
-### Contains
-### ContainsAny
-### ContainsRune
-##
-### HasPrefix
-### HasSuffix
-##
-### Index 
+# Поиск 
+- Contains
+- ContainsAny
+- ContainsRune
+
+
+- HasPrefix
+- HasSuffix
+
+
+- Index 
 Позиция первого вхождения подстроки в строку
-### LastIndex
-### LastIndexAny
-### LastIndexByte
-### LastIndexFunc
-### IndexAny
-### IndexByte
-### IndexFunc
-### IndexRune
+- LastIndex
+- LastIndexAny
+- LastIndexByte
+- LastIndexFunc
+- IndexAny
+- IndexByte
+- IndexFunc
+- IndexRune
 
 # Builder
 Построитель строки
-## Cap
+- Cap
 Общая ёмкость(capacity), выделенная под строку?
-## Grow
+- Grow
 Увеличить ёмкость?
-## Len
+- Len
 Текущая занятость предельной ёмкости
-## Reset
-## String
+- Reset
+- String
 Вернуть текуще состояние собранной строки?
-## Write
+- Write
 Записать массив байтов
-## WriteByte
+- WriteByte
 Записать один байт
-## WriteRune
-## WriteString
+- WriteRune
+- WriteString
 
 # Reader
-## NewReader
-## Len
+- NewReader
+- Len
 Количество непрочитанных байтов
-## Read
+- Read
 Прочесть часть строки содержащей байты, или прочесть массив байтов? Тогда зачем в конструктор передавать строку было
-## ReadAt 
+- ReadAt 
 Прочесть со смещением
-## ReadByte
-## ReadRune
-## Reset
-## Seek
+- ReadByte
+- ReadRune
+- Reset
+- Seek
 ?? что это
-## Size
+- Size
 Общая длина строки
-## UnreadByte
-## UnreadRune 
-## WriteTo
+- UnreadByte
+- UnreadRune 
+- WriteTo
 Передать строку из модуля чтения в модуль записи
 
 # Replacer
-## NewReplacer
-## Replace
-## WriteString
+- NewReplacer
+- Replace
+- WriteString
 Передать строку из модуля замены в модуль записи
